@@ -10,7 +10,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
+    "debug": "npm test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -21,5 +22,11 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "faker": "^4.1.0",
+    "jest": "^24.3.1",
+    "jest-cli": "^24.3.1",
+    "puppeteer": "^1.13.0"
+  }
 }
